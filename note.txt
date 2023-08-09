@@ -1,0 +1,16 @@
+App Directory:
+It is the heart of nextjs project. It contains all the files and folders that is necessary to run a webpage.
+1. If we create a folder named 'products' then a page will be automatically created and we can write the folder name as url and can access it. We can also make any subfolder and can also access the page using '/' after the main folder name in the url section.
+2. To show each page we need to make a page.js file under each of the folders.
+3. layout.js is the file where the next.js app starts it works and looks for the css, and the other files for the projects like fonts.
+4. We can make an component folder and in the component folder we can make our navmenu that we will use on all of our webpages. We need to import the menu file to the App directly page.js file and can use it there.
+
+Public Directory:
+It contains necessary media files that is needed to build our project.
+
+.next Directory:
+It contains the production ready project files that we will use to deploy on our production ready server.
+
+node_modules Directly:
+It contains the nodes files that is necessary to run the next app.
+
